@@ -1,5 +1,6 @@
 body {
-
+  font-family: Helvetica, Roboto, Arial, sans-serif;
+  font-size: 16px;
 }
 .container {
  width: 100%;
@@ -27,5 +28,42 @@ body {
 }
 
 .programmers-image {
-    margin: 0px auto;
+  margin: 0px auto;
+}
+
+.footer p {
+  text-align: center !important;
+}
+
+div.player_view {
+  margin: 0px auto;
+  text-align: center;
+  width: 1000px;
+  padding-left: 116px;
+}
+div#unityPlayer {
+  cursor: default;
+  height: 480px;
+  width: 768px;
+  
+}
+
+.screenshots {
+  width: 603px;
+  margin-left: 180px;
+}
+
+.about_text {
+  text-align: center;
+}
+.about_text ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+.about_text ul li {
+  padding: 5px 0;
+}
+.carousel-example-generic {
+  
 }

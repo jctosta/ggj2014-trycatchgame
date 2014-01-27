@@ -3,15 +3,15 @@
 <head>
 	<title>{ Try Catch - The Game }</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
 	
@@ -19,17 +19,17 @@
 		<div class="header">
 			<ul class="nav nav-pills pull-right">
 				<li><a href="/">Home</a></li>
-				<li><a href="/play.html">Play Now</a></li>
-				<li><a href="/about.html">About</a></li>
-				<li class="active"><a href='/screenshots.html'>Screenshots</a></li>
-				<li><a href="/contact.html">Contact</a></li>
+				<li><a href="/pages/play.html">Play Now</a></li>
+				<li><a href="/pages/about.html">About</a></li>
+				<li class="active"><a href='/pages/screenshots.html'>Screenshots</a></li>
+				<li><a href="/pages/contact.html">Contact</a></li>
 			</ul>
 			<h3 class="text-muted">{ Try Catch }</h3>
 		</div>
 
 		<div class="col-md-12 marketing-title"><h2>Screenshots</h2></div>
-		<div class='col-md-12'>
-			<div id="carousel-example-generic" class="carousel slide col-md-8" data-ride="carousel" style='margin:0px auto;'>
+		<div class='col-md-12 screenshots'>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style='margin:0px auto;'>
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -43,31 +43,31 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="screenshots/s1.jpg" alt="Screenshots">
+						<img src="../screenshots/s1.jpg" alt="Screenshots">
 						<div class="carousel-caption">
 							
 						</div>
 					</div>
 					<div class="item">
-						<img src="screenshots/s2.jpg" alt="Screenshots">
+						<img src="../screenshots/s2.jpg" alt="Screenshots">
 						<div class="carousel-caption">
 							
 						</div>
 					</div>
 					<div class="item">
-						<img src="screenshots/s3.jpg" alt="Screenshots">
+						<img src="../screenshots/s3.jpg" alt="Screenshots">
 						<div class="carousel-caption">
 							
 						</div>
 					</div>
 					<div class="item">
-						<img src="screenshots/s4.jpg" alt="Screenshots">
+						<img src="../screenshots/s4.jpg" alt="Screenshots">
 						<div class="carousel-caption">
 							
 						</div>
 					</div>
 					<div class="item">
-						<img src="screenshots/s5.jpg" alt="Screenshots">
+						<img src="../screenshots/s5.jpg" alt="Screenshots">
 						<div class="carousel-caption">
 							
 						</div>
@@ -85,14 +85,15 @@
 			
 		</div>
 
-		<div class="footer">
-			<p>&copy; Company 2013</p>
+		<div class="clearfix"></div>
+		<div class="footer col-md-12">
+			<p>&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
 		</div>
 
 	</div> <!-- /container -->
 
-	<script type="text/javascript" src="bower_components/jquery/jquery.min.js"></script>
-	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../bower_components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$('.carousel').carousel();
 	</script>
