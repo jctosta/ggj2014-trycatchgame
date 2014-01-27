@@ -1,0 +1,11 @@
+{
+	"name": "ggj2014-backend",
+	"description": "Backend de Sincronização para o jogo MouseBuster",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "3.x",
+		"connect": "latest",
+		"mysql": "latest"
+	}
+}

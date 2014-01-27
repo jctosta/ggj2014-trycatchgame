@@ -1,0 +1,31 @@
+body {
+
+}
+.container {
+ width: 100%;
+ max-width: 960px;
+}
+.marketing {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+}
+.marketing-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.logo_bg {
+  background: #fff;
+}
+.logo_bg img {
+  border-radius: 15px;
+  margin: 0px auto;
+}
+.custom-img  {
+  width: 100px;
+  margin: 0px auto;
+}
+
+.programmers-image {
+    margin: 0px auto;
+}
